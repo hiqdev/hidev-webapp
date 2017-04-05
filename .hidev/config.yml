@@ -1,0 +1,30 @@
+package:
+    type:           yii2-extension
+    name:           hidev-webapp
+    title:          HiDev plugin for web applications
+    headline:       HiDev WebApp
+    keywords:       hidev, web, application
+    namespace:      hidev\webapp
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+
+        This plugin provides HiDev configuration to automate standard tasks for web applications:
+
+        - creates directory structure and files:
+            - `runtime/`
+            - `web/assets/`
+            - `web/index.php`
+            - `web/robots.txt`
+            - `web/favicon.ico`
+            - `src/config/bootstrap.php`
+            - `src/config/defines.php`
+            - `src/config/params.php`
+        - sets proper permissions for directories and files
+        - nginx config generation with help of `hidev-nginx` plugin
+        - TODO: docker config generation
+
+php-cs-fixer:
+    finder:
+        notPath:
+            - tests/functional/minimal
+            - src/views/webapp

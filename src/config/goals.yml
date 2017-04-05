@@ -1,0 +1,35 @@
+deploy:
+    before:
+        - webapp
+
+nginx:
+    before:
+        - webapp
+
+webapp:
+    path:   .
+    web:
+        assets:
+            chmod: '0777'
+        index.php:
+            once:     true
+            template: webapp/web/index.twig
+        robots.txt:
+            once:     true
+            template: webapp/web/robots.twig
+    runtime:
+        chmod:  '0777'
+    src:
+        config:
+            defines.php:
+                class:    webapp-defines
+                template: webapp/config/defines.twig
+            bootstrap.php:
+                once:     true
+                template: webapp/config/bootstrap.twig
+            webapp.php:
+                once:     true
+                template: webapp/config/webapp.twig
+            params.php:
+                once:     true
+                template: webapp/config/params.twig
