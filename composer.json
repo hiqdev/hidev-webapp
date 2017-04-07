@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-webapp",
     "type": "yii2-extension",
-    "description": "HiDev plugin for web applications",
+    "description": "HiDev plugin for Yii2 applications",
     "keywords": [
         "hidev",
         "web",
@@ -43,6 +43,8 @@
         }
     ],
     "require": {
+        "yiisoft/yii2": "~2.0.11",
+        "vlucas/phpdotenv": "^2.4",
         "hiqdev/hidev-nginx": "<2.0"
     },
     "require-dev": {
