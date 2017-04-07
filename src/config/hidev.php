@@ -12,7 +12,7 @@ return [
     'components' => [
         'config' => [
             'webapp' => [
-                'class' => 'hidev\webapp\console\HiSiteController',
+                'class' => 'hidev\webapp\console\WebAppController',
             ],
             'webapp-defines' => [
                 'class' => 'hidev\webapp\console\DefinesController',

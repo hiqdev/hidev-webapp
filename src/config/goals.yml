@@ -21,15 +21,12 @@ webapp:
         chmod:  '0777'
     src:
         config:
-            defines.php:
-                class:    webapp-defines
-                template: webapp/config/defines.twig
             bootstrap.php:
                 once:     true
                 template: webapp/config/bootstrap.twig
-            webapp.php:
-                once:     true
-                template: webapp/config/webapp.twig
+            defines.php:
+                class:    webapp-defines
+                template: webapp/config/defines.twig
             params.php:
                 once:     true
                 template: webapp/config/params.twig
