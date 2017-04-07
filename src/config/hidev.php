@@ -14,9 +14,6 @@ return [
             'webapp' => [
                 'class' => 'hidev\webapp\console\WebAppController',
             ],
-            'webapp-defines' => [
-                'class' => 'hidev\webapp\console\DefinesController',
-            ],
             'include' => [
                 '@hidev/webapp/config/goals.yml',
             ],

@@ -19,8 +19,8 @@ if (!defined('WEBAPP_VENDOR_DIR') || !file_exists(WEBAPP_VENDOR_DIR . '/autoload
     exit(1);
 }
 
-require_once hiqdev\composer\config\Builder::path('defines');
 require_once WEBAPP_VENDOR_DIR . '/autoload.php';
+require_once hiqdev\composer\config\Builder::path('defines');
 require_once WEBAPP_VENDOR_DIR . '/yiisoft/yii2/Yii.php';
 
 Yii::setAlias('@root', WEBAPP_ROOT_DIR);
