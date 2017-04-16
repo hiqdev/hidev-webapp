@@ -1,7 +1,15 @@
 <?php
+/**
+ * HiDev plugin for Yii2 web applications
+ *
+ * @link      https://github.com/hiqdev/hidev-webapp
+ * @package   hidev-webapp
+ * @license   BSD-3-Clause
+ * @copyright Copyright (c) 2017, HiQDev (http://hiqdev.com/)
+ */
 
 if (!defined('WEBAPP_ROOT_DIR')) {
-    fwrite(STDERR, "WEBAPP_ROOT_DIR constant must be defined");
+    fwrite(STDERR, 'WEBAPP_ROOT_DIR constant must be defined');
     exit(1);
 }
 

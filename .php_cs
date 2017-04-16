@@ -1,7 +1,7 @@
 <?php
 
 $header = <<<EOF
-HiDev plugin for web applications
+HiDev plugin for Yii2 web applications
 
 @link      https://github.com/hiqdev/hidev-webapp
 @package   hidev-webapp
