@@ -12,7 +12,7 @@ namespace hidev\webapp\tests\functional;
 
 use hidev\tests\functional\Tester;
 
-class HiSiteTest extends \PHPUnit_Framework_TestCase
+class HiSiteTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \FunctionalTester
