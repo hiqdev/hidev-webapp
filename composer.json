@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-webapp",
     "type": "yii2-extension",
-    "description": "HiDev plugin for Yii2 applications",
+    "description": "HiDev plugin for Yii2 web applications",
     "keywords": [
         "hidev",
         "web",

@@ -1,7 +1,7 @@
 package:
     type:           yii2-extension
     name:           hidev-webapp
-    title:          HiDev plugin for web applications
+    title:          HiDev plugin for Yii2 web applications
     headline:       HiDev WebApp
     keywords:       hidev, web, application
     namespace:      hidev\webapp
@@ -20,7 +20,7 @@ package:
             - `src/config/defines.php`
             - `src/config/params.php`
         - sets proper permissions for directories and files
-        - nginx config generation with help of `hidev-nginx` plugin
+        - nginx config generation with `hidev-nginx` plugin
         - TODO: docker config generation
 
 php-cs-fixer:

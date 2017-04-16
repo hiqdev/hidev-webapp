@@ -1,6 +1,6 @@
 # HiDev WebApp
 
-**HiDev plugin for web applications**
+**HiDev plugin for Yii2 web applications**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-webapp/v/stable)](https://packagist.org/packages/hiqdev/hidev-webapp)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-webapp/downloads)](https://packagist.org/packages/hiqdev/hidev-webapp)
@@ -23,7 +23,7 @@ This plugin provides HiDev configuration to automate standard tasks for web appl
     - `src/config/defines.php`
     - `src/config/params.php`
 - sets proper permissions for directories and files
-- nginx config generation with help of `hidev-nginx` plugin
+- nginx config generation with `hidev-nginx` plugin
 - TODO: docker config generation
 
 ## Installation
