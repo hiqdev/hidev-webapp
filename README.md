@@ -9,7 +9,7 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-webapp.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-webapp/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-webapp/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-webapp/dev-master)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev](https://github.com/hiqdev/hidev) is the automation tool mixed with code generator for easier continuos integration.
 
 This plugin provides HiDev configuration to automate standard tasks for web applications:
 
@@ -20,10 +20,9 @@ This plugin provides HiDev configuration to automate standard tasks for web appl
     - `web/robots.txt`
     - `web/favicon.ico`
     - `src/config/bootstrap.php`
-    - `src/config/defines.php`
     - `src/config/params.php`
 - sets proper permissions for directories and files
-- nginx config generation with `hidev-nginx` plugin
+- provides nginx config generation with `hidev-nginx` plugin
 - TODO: docker config generation
 
 ## Installation
