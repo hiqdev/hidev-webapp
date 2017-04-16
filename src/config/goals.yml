@@ -24,9 +24,6 @@ webapp:
             bootstrap.php:
                 once:     true
                 template: webapp/config/bootstrap.twig
-            defines.php:
-                once:     true
-                template: webapp/config/defines.twig
             params.php:
                 once:     true
                 template: webapp/config/params.twig

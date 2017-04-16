@@ -12,7 +12,7 @@ return [
     'components' => [
         'config' => [
             'webapp' => [
-                'class' => 'hidev\webapp\console\WebAppController',
+                'class' => \hidev\webapp\console\WebAppController::class,
             ],
             'include' => [
                 '@hidev/webapp/config/goals.yml',
