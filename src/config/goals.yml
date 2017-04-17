@@ -17,6 +17,9 @@ webapp:
         robots.txt:
             once:     true
             template: webapp/web/robots.twig
+        favicon.ico:
+            once:     true
+            copy:     '{{ params.favicon.ico }}'
     runtime:
         chmod:  '0777'
     src:
