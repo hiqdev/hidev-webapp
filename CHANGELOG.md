@@ -1,5 +1,9 @@
 # hiqdev/hidev-webapp
 
+## [0.6.0] - 2017-05-04
+
+- Redone for hidev 0.6 ([@hiqsol])
+
 ## [0.1.0] - 2017-04-16
 
 - Added use of environment variables from `.env` ([@hiqsol])
@@ -17,3 +21,4 @@
 [bladeroot@gmail.com]: https://github.com/BladeRoot
 [Under development]: https://github.com/hiqdev/hidev-webapp/releases
 [0.1.0]: https://github.com/hiqdev/hidev-webapp/releases/tag/0.1.0
+[0.6.0]: https://github.com/hiqdev/hidev-webapp/compare/0.1.0...0.6.0

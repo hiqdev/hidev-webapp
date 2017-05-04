@@ -1,5 +1,16 @@
 # hiqdev/hidev-webapp
 
+## [0.6.0] - 2017-05-04
+
+- Redone for hidev 0.6
+    - [abcb34d] 2017-05-04 csfixed [@hiqsol]
+    - [9445655] 2017-05-04 csfixed [@hiqsol]
+    - [4fe8e07] 2017-05-04 redoing for hidev 0.6 [@hiqsol]
+    - [08f8891] 2017-05-04 renamed `hidev.yml` <- .hidev/config.yml [@hiqsol]
+    - [f16d0c8] 2017-04-17 changed interpolation to $params[name] [@hiqsol]
+    - [211e750] 2017-04-17 added favicon.ico copying [@hiqsol]
+    - [48b5f32] 2017-04-16 removed defines file generation [@hiqsol]
+
 ## [0.1.0] - 2017-04-16
 
 - Added use of environment variables from `.env`
@@ -29,3 +40,11 @@
 [c75cded]: https://github.com/hiqdev/hidev-webapp/commit/c75cded
 [Under development]: https://github.com/hiqdev/hidev-webapp/releases
 [0.1.0]: https://github.com/hiqdev/hidev-webapp/releases/tag/0.1.0
+[abcb34d]: https://github.com/hiqdev/hidev-webapp/commit/abcb34d
+[9445655]: https://github.com/hiqdev/hidev-webapp/commit/9445655
+[4fe8e07]: https://github.com/hiqdev/hidev-webapp/commit/4fe8e07
+[08f8891]: https://github.com/hiqdev/hidev-webapp/commit/08f8891
+[f16d0c8]: https://github.com/hiqdev/hidev-webapp/commit/f16d0c8
+[211e750]: https://github.com/hiqdev/hidev-webapp/commit/211e750
+[48b5f32]: https://github.com/hiqdev/hidev-webapp/commit/48b5f32
+[0.6.0]: https://github.com/hiqdev/hidev-webapp/compare/0.1.0...0.6.0
