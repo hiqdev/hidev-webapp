@@ -4,9 +4,8 @@ package:
     title:          HiDev plugin for Yii2 web applications
     headline:       HiDev WebApp
     keywords:       hidev, web, application
-    namespace:      hidev\webapp
     description:    |
-        [HiDev](https://github.com/hiqdev/hidev) is the automation tool mixed with code generator for easier continuos integration.
+        [HiDev] is the automation tool mixed with code generator for easier continuos development.
 
         This plugin provides HiDev configuration to automate standard tasks for web applications:
 
@@ -19,10 +18,13 @@ package:
             - `src/config/bootstrap.php`
             - `src/config/params.php`
         - sets proper permissions for directories and files
-        - provides nginx config generation with `hidev-nginx` plugin
+        - provides nginx config generation with [hidev-nginx] plugin
         - TODO: docker config generation
 
-php-cs-fixer:
+        [hidev]:        https://github.com/hiqdev/hidev
+        [hidev-nginx]:  https://github.com/hiqdev/hidev-nginx
+
+.php_cs:
     finder:
         notPath:
             - tests/functional/minimal
