@@ -9,21 +9,28 @@
  */
 
 return [
+    'controllerMap' => [
+        'webapp' => [
+            'class' => \hidev\webapp\console\WebAppController::class,
+        ],
+    ],
     'components' => [
-        'config' => [
-            'webapp' => [
-                'class' => \hidev\webapp\console\WebAppController::class,
+        'include' => [
+            __DIR__ . '/goals.yml',
+        ],
+        'webapp' => [
+            'class' => \hidev\webapp\components\WebApp::class,
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@hidev/views' => ['@hidev/webapp/views'],
+                ],
             ],
-            'include' => [
-                '@hidev/webapp/config/goals.yml',
-            ],
-            'views' => [
-                '@hidev/webapp/views',
-            ],
-            'vcsignore' => [
-                '/runtime/*'    => 'WebApp directories',
-                '/web/assets/*' => 'WebApp directories',
-            ],
+        ],
+        'vcsignore' => [
+            '/runtime/*'    => 'WebApp directories',
+            '/web/assets/*' => 'WebApp directories',
         ],
     ],
 ];

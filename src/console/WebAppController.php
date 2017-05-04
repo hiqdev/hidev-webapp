@@ -13,33 +13,14 @@ namespace hidev\webapp\console;
 use Yii;
 
 /**
- * Goal for WebApp.
+ * WebApp.
  */
-class WebAppController extends \hidev\controllers\DirectoryController
+class WebAppController extends \hidev\base\Controller
 {
-    protected $_nginx;
-    protected $_vhost;
+    public $defaultAction = 'deploy';
 
-    public function getNginx()
+    public function actionDeploy()
     {
-        if ($this->_nginx === null) {
-            $this->_nginx = $this->takeGoal('nginx');
-        }
-
-        return $this->_nginx;
-    }
-
-    public function getVhost()
-    {
-        if ($this->_vhost === null) {
-            $this->_vhost = $this->getNginx()->get('default');
-        }
-
-        return $this->_vhost;
-    }
-
-    public function setVhost(array $params)
-    {
-        Yii::configure($this->getVhost(), $params);
+        return $this->take('webapp')->save();
     }
 }
