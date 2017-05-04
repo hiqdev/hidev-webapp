@@ -1,6 +1,6 @@
 <?php
 /**
- * HiDev plugin for Yii2 web applications
+ * HiDev plugin for Yii2 web applications.
  *
  * @link      https://github.com/hiqdev/hidev-webapp
  * @package   hidev-webapp
