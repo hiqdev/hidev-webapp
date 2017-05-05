@@ -13,6 +13,11 @@ return [
         'webapp' => [
             'class' => \hidev\webapp\console\WebAppController::class,
         ],
+        'nginx' => [
+            'before' => [
+                'webapp',
+            ],
+        ],
     ],
     'components' => [
         'include' => [

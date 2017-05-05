@@ -2,10 +2,6 @@ deploy:
     before:
         - webapp
 
-nginx:
-    before:
-        - webapp
-
 webapp:
     path:   .
     web:
