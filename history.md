@@ -1,5 +1,10 @@
 # hiqdev/hidev-webapp
 
+## [0.6.0.1] - 2017-05-05
+
+- Fixed running webapp before nginx
+    - [3d94e16] 2017-05-05 quickfixed running webapp before nginx [@hiqsol]
+
 ## [0.6.0] - 2017-05-04
 
 - Redone for hidev 0.6
@@ -38,7 +43,7 @@
 [2549eee]: https://github.com/hiqdev/hidev-webapp/commit/2549eee
 [edc571f]: https://github.com/hiqdev/hidev-webapp/commit/edc571f
 [c75cded]: https://github.com/hiqdev/hidev-webapp/commit/c75cded
-[Under development]: https://github.com/hiqdev/hidev-webapp/releases
+[Under development]: https://github.com/hiqdev/hidev-webapp/compare/0.6.0...HEAD
 [0.1.0]: https://github.com/hiqdev/hidev-webapp/releases/tag/0.1.0
 [abcb34d]: https://github.com/hiqdev/hidev-webapp/commit/abcb34d
 [9445655]: https://github.com/hiqdev/hidev-webapp/commit/9445655
@@ -48,3 +53,5 @@
 [211e750]: https://github.com/hiqdev/hidev-webapp/commit/211e750
 [48b5f32]: https://github.com/hiqdev/hidev-webapp/commit/48b5f32
 [0.6.0]: https://github.com/hiqdev/hidev-webapp/compare/0.1.0...0.6.0
+[3d94e16]: https://github.com/hiqdev/hidev-webapp/commit/3d94e16
+[0.6.0.1]: https://github.com/hiqdev/hidev-webapp/compare/0.6.0...0.6.0.1
