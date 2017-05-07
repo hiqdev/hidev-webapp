@@ -45,7 +45,7 @@
     "require": {
         "yiisoft/yii2": "~2.0.11",
         "vlucas/phpdotenv": "^2.4",
-        "hiqdev/hidev-nginx": "<2.0"
+        "hiqdev/hidev-nginx": "<2.0 || dev-master"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
