@@ -15,7 +15,7 @@ use Yii;
 /**
  * WebApp component.
  */
-class WebApp extends \hidev\base\Directory
+class WebApp extends \hidev\components\Directory
 {
     protected $_nginx;
     protected $_vhost;
