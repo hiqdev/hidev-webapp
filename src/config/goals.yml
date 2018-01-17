@@ -16,6 +16,9 @@ webapp:
         favicon.ico:
             once:     true
             copy:     $params['favicon.ico']
+    var:
+        tmp:
+            chmod:  '0777'
     runtime:
         chmod:  '0777'
     src:
