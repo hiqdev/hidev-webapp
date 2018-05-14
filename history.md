@@ -1,6 +1,15 @@
 # hiqdev/hidev-webapp
 
-## [0.6.1] - 2017-05-10
+## [0.7.0] - 2018-05-14
+
+- Added yii 2.1 compatibility
+    - [3d824d1] 2018-05-14 csfixed [@hiqsol]
+    - [30a0176] 2018-04-26 Fixed error handling in web app [@SilverFire]
+    - [4a328a0] 2018-02-26 changed yii2 version constraint to allow 2.1 [@hiqsol]
+    - [3fe381e] 2018-02-22 Replace Yii::trace with Yii::debug [@SilverFire]
+    - [8da1c15] 2018-01-17 added mkdir `var/tmp` with 0777 [@hiqsol]
+
+## [0.6.1] - 2017-05-30
 
 - Fixed for hidev 0.6 changes
     - [ce80ed0] 2017-05-10 csfixed [@hiqsol]
@@ -51,7 +60,7 @@
 [2549eee]: https://github.com/hiqdev/hidev-webapp/commit/2549eee
 [edc571f]: https://github.com/hiqdev/hidev-webapp/commit/edc571f
 [c75cded]: https://github.com/hiqdev/hidev-webapp/commit/c75cded
-[Under development]: https://github.com/hiqdev/hidev-webapp/compare/0.6.0.1...HEAD
+[Under development]: https://github.com/hiqdev/hidev-webapp/compare/0.6.1...HEAD
 [0.1.0]: https://github.com/hiqdev/hidev-webapp/releases/tag/0.1.0
 [abcb34d]: https://github.com/hiqdev/hidev-webapp/commit/abcb34d
 [9445655]: https://github.com/hiqdev/hidev-webapp/commit/9445655
@@ -68,3 +77,9 @@
 [9225455]: https://github.com/hiqdev/hidev-webapp/commit/9225455
 [08daf9d]: https://github.com/hiqdev/hidev-webapp/commit/08daf9d
 [0.6.1]: https://github.com/hiqdev/hidev-webapp/compare/0.6.0.1...0.6.1
+[3d824d1]: https://github.com/hiqdev/hidev-webapp/commit/3d824d1
+[30a0176]: https://github.com/hiqdev/hidev-webapp/commit/30a0176
+[4a328a0]: https://github.com/hiqdev/hidev-webapp/commit/4a328a0
+[3fe381e]: https://github.com/hiqdev/hidev-webapp/commit/3fe381e
+[8da1c15]: https://github.com/hiqdev/hidev-webapp/commit/8da1c15
+[0.7.0]: https://github.com/hiqdev/hidev-webapp/compare/0.6.1...0.7.0

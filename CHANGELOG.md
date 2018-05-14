@@ -1,6 +1,10 @@
 # hiqdev/hidev-webapp
 
-## [0.6.1] - 2017-05-10
+## [0.7.0] - 2018-05-14
+
+- Added yii 2.1 compatibility ([@hiqsol], [@SilverFire])
+
+## [0.6.1] - 2017-05-30
 
 - Fixed for hidev 0.6 changes ([@hiqsol])
 
@@ -27,8 +31,9 @@
 [andreyklochok@gmail.com]: https://github.com/tafid
 [@BladeRoot]: https://github.com/BladeRoot
 [bladeroot@gmail.com]: https://github.com/BladeRoot
-[Under development]: https://github.com/hiqdev/hidev-webapp/compare/0.6.0.1...HEAD
+[Under development]: https://github.com/hiqdev/hidev-webapp/compare/0.6.1...HEAD
 [0.1.0]: https://github.com/hiqdev/hidev-webapp/releases/tag/0.1.0
 [0.6.0]: https://github.com/hiqdev/hidev-webapp/compare/0.1.0...0.6.0
 [0.6.0.1]: https://github.com/hiqdev/hidev-webapp/compare/0.6.0...0.6.0.1
 [0.6.1]: https://github.com/hiqdev/hidev-webapp/compare/0.6.0.1...0.6.1
+[0.7.0]: https://github.com/hiqdev/hidev-webapp/compare/0.6.1...0.7.0
