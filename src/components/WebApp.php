@@ -1,11 +1,11 @@
 <?php
 /**
- * HiDev plugin for Yii2 web applications.
+ * HiDev plugin for Yii2 web applications
  *
  * @link      https://github.com/hiqdev/hidev-webapp
  * @package   hidev-webapp
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2017, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2017-2018, HiQDev (http://hiqdev.com/)
  */
 
 namespace hidev\webapp\components;
