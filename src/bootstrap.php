@@ -32,5 +32,3 @@ require_once WEBAPP_VENDOR_DIR . '/yiisoft/yii2/Yii.php';
 
 Yii::setAlias('@root', WEBAPP_ROOT_DIR);
 Yii::setAlias('@vendor', WEBAPP_VENDOR_DIR);
-
-Yii::debug('bootstrap finished');
