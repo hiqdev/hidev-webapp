@@ -43,7 +43,6 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "^2.0.14.1 || 3.0.x-dev",
         "hiqdev/hidev-nginx": "<2.0 || dev-master"
     },
     "require-dev": {
