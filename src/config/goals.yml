@@ -4,7 +4,7 @@ deploy:
 
 webapp:
     path:   .
-    web:
+    public:
         assets:
             chmod: '0777'
         index.php:
@@ -21,11 +21,3 @@ webapp:
             chmod:  '0777'
     runtime:
         chmod:  '0777'
-    src:
-        config:
-            bootstrap.php:
-                once:     true
-                template: webapp/config/bootstrap.twig
-            params.php:
-                once:     true
-                template: webapp/config/params.twig
