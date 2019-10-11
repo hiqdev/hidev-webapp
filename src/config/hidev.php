@@ -13,6 +13,9 @@ return [
         'webapp' => [
             'class' => \hidev\webapp\console\WebAppController::class,
         ],
+        'deploy' => [
+            'class' => \hidev\webapp\console\DeployController::class,
+        ],
         'nginx' => [
             'before' => [
                 'webapp',
