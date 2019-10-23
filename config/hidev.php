@@ -13,8 +13,8 @@ return [
         'webapp' => [
             'class' => \hidev\webapp\console\WebAppController::class,
         ],
-        'deploy' => [
-            'class' => \hidev\webapp\console\DeployController::class,
+        'up' => [
+            'class' => \hidev\webapp\console\UpController::class,
         ],
         'nginx' => [
             'before' => [
@@ -37,8 +37,8 @@ return [
             ],
         ],
         'vcsignore' => [
-            '/runtime/*'    => 'WebApp directories',
-            '/web/assets/*' => 'WebApp directories',
+            '/runtime/*'        => 'WebApp directories',
+            '/public/assets/*'  => 'WebApp directories',
         ],
     ],
 ];

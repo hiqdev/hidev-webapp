@@ -7,7 +7,7 @@ use hidev\helpers\Sys;
 use hidev\components\Composer;
 use hidev\components\Systemd;
 
-class Deployer
+class Up
 {
     private $dir;
     private $path;

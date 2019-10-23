@@ -10,18 +10,18 @@
 
 namespace hidev\webapp\console;
 
-use hidev\webapp\components\Deployer;
+use hidev\webapp\components\Up;
 
 /**
- * Deploy Controller.
+ * Up Controller.
  * TODO REDO the whole thing to be configurable
  */
-class DeployController extends \hidev\console\CommonController
+class UpController extends \hidev\console\CommonController
 {
     public function actionIndex($name = null, $command = 'all')
     {
-        $deployer = new Deployer($name);
+        $up = new Up($name);
 
-        return $deployer->call($command);
+        return $up->call($command);
     }
 }
