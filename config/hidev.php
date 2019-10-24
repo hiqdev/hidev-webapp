@@ -36,9 +36,5 @@ return [
                 ],
             ],
         ],
-        'vcsignore' => [
-            '/runtime/*'        => 'WebApp directories',
-            '/public/assets/*'  => 'WebApp directories',
-        ],
     ],
 ];
