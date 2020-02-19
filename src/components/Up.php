@@ -56,7 +56,7 @@ class Up
         $dir = basename($this->getCwd());
         foreach ($this->findVariants() as $path) {
             $name = pathinfo($path, PATHINFO_EXTENSION);
-            if (strncmp($dir, "${name}-", strlen($name)+1) === 0) {
+            if (preg_match("/^${name}\b/", $dir)) {
                 return $path;
             }
         }
