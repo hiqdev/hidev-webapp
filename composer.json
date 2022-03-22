@@ -43,7 +43,7 @@
         }
     ],
     "require": {
-        "hiqdev/hidev-nginx": "<2.0 || dev-master"
+        "hiqdev/hidev-nginx": "dev-master"
     },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
