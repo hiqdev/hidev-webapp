@@ -7,13 +7,19 @@
  * @license   BSD-3-Clause
  * @copyright Copyright (c) 2017-2018, HiQDev (http://hiqdev.com/)
  */
-error_reporting(E_ALL);
+error_reporting(E_ALL & ~E_DEPRECATED);
 date_default_timezone_set('UTC');
 
-require_once __DIR__ . '/../vendor/autoload.php';
+$ROOT_DIR = dirname(__DIR__, 4) . '/runtime';
+$VENDOR_DIR = dirname(__DIR__, 3);
 
-require_once __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
+require_once $VENDOR_DIR . '/autoload.php';
+require_once $VENDOR_DIR . '/yiisoft/yii2/Yii.php';
 
-foreach (require __DIR__ . '/../vendor/hiqdev/composer-config-plugin-output/aliases.php' as $alias => $path) {
-    Yii::setAlias($alias, $path);
-}
+$config = require $VENDOR_DIR . '/yiisoft/composer-config-plugin-output/web.php';
+
+Yii::setAlias('@root', $ROOT_DIR);
+Yii::setAlias('@vendor', $VENDOR_DIR);
+Yii::setAlias('@runtime', $ROOT_DIR . '/runtime');
+
+Yii::$app = new \yii\web\Application($config);
