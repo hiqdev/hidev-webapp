@@ -22,7 +22,6 @@ class TestEndpointsTest extends \PHPUnit\Framework\TestCase
     {
         $hosts = explode(',', yii::getApp()->params['HOSTS']);
         $host = reset($hosts);
-        $host = 'hiapi.advancedhosting.com';
         static::$client = static::buildClient("https://$host");
         try {
             static::$client->request('GET', '');
