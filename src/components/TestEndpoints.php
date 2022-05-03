@@ -33,6 +33,7 @@ final class TestEndpoints
         $REMOTE_ADDR = $_SERVER['REMOTE_ADDR'] ?? 'REMOTE_ADDR';
         self::respondJson([
             'REMOTE_ADDR' => $REMOTE_ADDR,
+            'HTTP_X_FORWARDED_FOR' => $_SERVER['HTTP_X_FORWARDED_FOR'] ?? null,
             'given_ip' => $given_ip,
             'equals' => (string)$given_ip === (string)$REMOTE_ADDR,
         ]);
