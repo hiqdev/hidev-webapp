@@ -13,6 +13,7 @@ final class TestEndpoints
     {
         $endpoint = self::getEndpoint();
         $handlers = [
+            'checkForwardedHeader' => 'checkForwardedHeader',
             'fullEmptyEndpoint' => 'fullEmptyEndpoint',
             'testRemoteAddrEndpoint' => 'testRemoteAddrEndpoint',
         ];
@@ -20,6 +21,19 @@ final class TestEndpoints
         if (isset($handler)) {
             self::$handler();
         }
+    }
+
+    private static function checkForwardedHeader(): void
+    {
+        $remoteAddr = $_SERVER['REMOTE_ADDR'] ?? null;
+        $forwardedAddr = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? null;
+        if (strripos($forwardedAddr, $remoteAddr) && $remoteAddr === '1.1.1.1') {
+            $statusCode = 409;
+        } else {
+            $statusCode = 200;
+        }
+        http_response_code($statusCode);
+        self::respondJson('{}');
     }
 
     private static function fullEmptyEndpoint(): void
