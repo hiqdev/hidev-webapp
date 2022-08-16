@@ -19,13 +19,13 @@ class HiSiteTest extends \PHPUnit\Framework\TestCase
      */
     protected $tester;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->tester = new Tester($this);
         $this->tester->clean = true;
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         $this->tester = null;
     }

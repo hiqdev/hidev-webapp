@@ -19,12 +19,12 @@ class WebAppControllerTest extends \PHPUnit\Framework\TestCase
      */
     protected $controller;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->controller = new WebAppController('test', null);
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
     }
 
