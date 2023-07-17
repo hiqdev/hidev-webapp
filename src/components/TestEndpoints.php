@@ -40,7 +40,7 @@ final class TestEndpoints
     private static function checkDnsResolve(): void
     {
         $ip = gethostbyname('www.google.com');
-        if ($ip !== 'www.google.com') {
+        if ($ip === 'www.google.com') {
             $statusCode = 409;
         } else {
             $statusCode = 200;
